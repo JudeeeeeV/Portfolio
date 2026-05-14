@@ -1,17 +1,36 @@
-# React + Vite
+# JUDEV Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal web portfolio showcasing my projects, skills, certifications, achievements, and journey as a Computer Science student and aspiring software engineer.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio serves as my personal space to present who I am, what I build, and the technologies I work with. It highlights my software development projects, technical skills, certifications, and experiences.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for desktop and mobile devices
+- Light and dark mode support
+- Clean and minimal user interface
+- Project showcase section
+- Skills and technologies section
+- Certifications and achievements section
+- Contact section
+- Resume integration
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portfolio
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- JavaScript
+
+## Sections
+
+- Home
+- About
+- Projects
+- Skills
+- Certifications
+- Achievements
+- Contact
