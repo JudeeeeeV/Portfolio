@@ -113,7 +113,7 @@ const Hero = () => {
                 absolute inset-0 w-full h-full object-contain object-bottom
                 px-4 pt-8 drop-shadow-md
                 opacity-100
-                transition-opacity duration-100
+                transition-opacity duration-500 ease-in-out
                 group-hover:opacity-0
                 dark:opacity-0
               "
@@ -130,7 +130,7 @@ const Hero = () => {
                 absolute inset-0 w-full h-full object-contain object-bottom
                 px-4 pt-8 drop-shadow-md
                 opacity-0
-                transition-opacity duration-100
+                transition-opacity duration-500 ease-in-out
                 group-hover:opacity-100
                 dark:opacity-0 dark:group-hover:opacity-0
               "
@@ -147,7 +147,7 @@ const Hero = () => {
                 absolute inset-0 w-full h-full object-contain object-bottom
                 px-4 pt-8 drop-shadow-md
                 opacity-0
-                transition-opacity duration-100
+                transition-opacity duration-500 ease-in-out
                 dark:opacity-100
                 dark:group-hover:opacity-0
               "
@@ -164,7 +164,7 @@ const Hero = () => {
                 absolute inset-0 w-full h-full object-contain object-bottom
                 px-4 pt-8 drop-shadow-md
                 opacity-0
-                transition-opacity duration-100
+                transition-opacity duration-500 ease-in-out 
                 dark:group-hover:opacity-100
               "
               onError={(e) => {
