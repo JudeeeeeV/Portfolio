@@ -1,0 +1,121 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[usenames,dvipsnames]{color}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{\textbf{#1}: #2 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% HEADER
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large JUDE MIKAEL VALENCIA}} & Cebu City, Philippines \\
+  Email: valencia.judemikaell@gmail.com & linkedin.com/in/valenciajudemikael \\
+\end{tabular*}
+
+% SUMMARY
+\section{Overview}
+Computer Science student specializing in full-stack development, AI integration, and blockchain systems. Experienced in building scalable applications, real-time systems, and secure smart contract solutions. Strong background in backend development, APIs, and cloud technologies. Seeking a software engineering internship to contribute to impactful, production-level systems.
+
+
+% EDUCATION
+\section{Education}
+\begin{itemize}[leftmargin=*]
+  \resumeSubheading
+    {Cebu Institute of Technology - University}{Cebu, Philippines}
+    {Bachelor of Science in Computer Science}{Aug 2023 -- Present}
+\end{itemize}
+
+% ACHIEVEMENTS (MOVED UP)
+\section{Achievements}
+\resumeItemListStart
+    \resumeItem{Champion – Polkadot Solidity Hackathon (Cebu Edition)}
+    {Led development of \textbf{HexaWork}, an AI-powered freelance escrow protocol on Polkadot EVM. Recognized for smart contract security, AI integration, and scalable system design.}
+
+
+\resumeItemListEnd
+
+% CERTIFICATIONS
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{AWS Certified Cloud Practitioner} \hfill \textit{April 2026} \\
+\textbf{Java CodeChum Programming Certification} \hfill \textit{May 12, 2025} \\
+\textbf{C CodeChum Programming Certification} \hfill \textit{May 31, 2024} \\
+}}
+\end{itemize}
+
+% PROJECTS
+\section{Project Experience}
+\resumeItemListStart
+
+\resumeItem{HexaWork – AI-Powered Freelance Escrow Platform}
+{Developed a decentralized escrow system using smart contracts to enable secure, trustless transactions between freelancers and clients. Integrated AI-based milestone verification and built a responsive React + Tailwind dashboard for real-time task and payment tracking.}
+
+\resumeItem{What Remains – Story-Driven Visual Novel Game}
+{Developed a mystery visual novel focused on grief, memory, and branching narrative choices using Java. Implemented core systems such as manual saves, auto-save, dialogue log, fast forward, skip, and auto-play. Applied design patterns including Singleton, State, Observer, Factory, Flyweight, and Memento to manage game state, events, reusable assets, and save/load functionality.}
+
+\resumeItem{TechTix - Movie Booking System}
+{Built a desktop movie reservation system using WPF and C\#. Implemented seat selection, movie schedules, booking transactions, and user-friendly forms for managing reservations. Designed the system with object-oriented programming principles for maintainable UI and business logic.}
+
+\resumeItem{AsaNaBus – Real-Time Bus Tracking System}
+{Built a geolocation-based system to track buses and provide accurate ETA predictions. Implemented real-time updates and optimized backend processing for low-latency performance during peak usage.}
+
+\resumeItem{Wildcat FreshFinds – Campus Marketplace}
+{Developed a Kotlin-based mobile application for peer-to-peer buying and selling. Implemented product listing, search functionality, and user interaction features with a focus on intuitive UI/UX.}
+
+\resumeItemListEnd
+
+% SKILLS
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages:} C, C++, C\#, Java, Python, JavaScript, TypeScript, Kotlin \\
+\textbf{Frameworks:} React.js, Node.js, Express.js, .NET \\
+\textbf{Databases:} PostgreSQL, MongoDB, Supabase \\
+\textbf{Cloud \& Tools:} AWS (EC2, S3), Git, REST APIs, OpenAI API, Claude API \\
+\textbf{Core Concepts:} Data Structures, Algorithms, OOP, System Design
+}}
+\end{itemize}
+
+
+
+\end{document}
