@@ -19,7 +19,7 @@ const FloatingChat = () => {
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+  }, [messages, isLoading]);
 
   // Load resume.txt once when component mounts
   useEffect(() => {
@@ -259,6 +259,28 @@ Rules:
                       </div>
                     </div>
                   ))}
+
+                  {isLoading && (
+                    <div className="flex justify-start">
+                      <div className="max-w-[85%] p-4 py-4 rounded-2xl bg-card border border-border flex items-center gap-1.5 rounded-bl-sm shadow-sm h-[44px]">
+                        <motion.div
+                          className="w-1.5 h-1.5 bg-secondary rounded-full"
+                          animate={{ y: [0, -4, 0] }}
+                          transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut", delay: 0 }}
+                        />
+                        <motion.div
+                          className="w-1.5 h-1.5 bg-secondary rounded-full"
+                          animate={{ y: [0, -4, 0] }}
+                          transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut", delay: 0.2 }}
+                        />
+                        <motion.div
+                          className="w-1.5 h-1.5 bg-secondary rounded-full"
+                          animate={{ y: [0, -4, 0] }}
+                          transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
+                        />
+                      </div>
+                    </div>
+                  )}
 
                   <div ref={messagesEndRef} />
                 </div>
